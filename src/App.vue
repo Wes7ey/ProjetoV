@@ -1,86 +1,89 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+
  </script>
 
-<template>
-  <header>
 
-    <div>
-      <nav>
+    <template class="header">
+      <div>
+    
+    <header class="divCabecalho">
+    <nav>
+     
+      <h1>
         <RouterLink to="/resumo">Resumo</RouterLink>
-        <RouterLink to="/qualificacoes">Qualificacoes</RouterLink>
+        <RouterLink to="/qualificacoes">Qualificações</RouterLink>
         <RouterLink to="/hobbies">Hobbies</RouterLink>
         <RouterLink to="/interesses">Interesses</RouterLink>
         <RouterLink to="/contatos">Contatos</RouterLink>
-      </nav>
-    </div>
+      </h1>
+      
+    </nav>
   </header>
+ 
 
-  <RouterView />
+
+  <main class="tela">
+   
+    <RouterView />
+  </main>
+
+
+
+    <footer class="footer">
+
+      <h1>Rodapé</h1>
+
+    </footer>
+
+</div>
+
 </template>
 
+<RouterView />
+
 <style scoped>
-header {
-  
-  line-height: 1.5;
-  max-height: 100vh;
+
+header{
+/* background-color: aqua; */
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: auto;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
+.tela{
+  /* background-color: brown; */
+  width: 50%;
+  margin-top: 5px;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 1rem;
 }
 
-nav {
-
-  width: 100%;
-  font-size: 12px;
+footer{
+  /* background-color: blueviolet; */
   text-align: center;
-  margin-top: 2rem;
+  display:flow-root;
+  justify-content: space-around;
+  align-items:center;
+  margin-top: 230px;
 }
 
-nav a.router-link-exact-active {
-  color: var(--color-text);
-}
-
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
-}
-
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
-}
-
-nav a:first-of-type {
-  border: 0;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-
-  nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
-
-    padding: 1rem 0;
-    margin-top: 1rem;
-  }
+.divCabecalho{
+  width: 50vw;
+  margin-top: 0px;
+  text-align: center;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25%;
+  font-size: 1rem;
 }
 </style>
+
