@@ -9,27 +9,24 @@ defineProps({
 
 <template> 
 
-<div id="corpo">
-
-<div id="1">
+<div class="primeira">
       <div><img class="ibagem" src="src/assets/WhatsApp Image 2023-05-05 at 13.55.20 (1).jpeg" alt="Genshin"></div>
-     <div><h3 class="textBloco"> Em computação, desfazer é uma comando e função do programa para reverter a última alteração que foi feita a algum objeto. Tais objetos podem ser, por exemplo, um texto, uma formatação de texto, uma imagem, uma multimídia digital, um sistema de arquivos. As alterações podem ser feitas pelo usuário ou pelo programa.</h3></div> 
+     <div><h3 class="textBloco"><u>Jogos:</u> Desde criança sempre joguei muito video game, sempre preferi jogos de estratégia e RPGs. </h3></div> 
     </div>
-  </div>
 
-  <div id="2">
+  <div class="segunda">
     <div>
-      <h3 class="textBloco"> Em computação, desfazer é uma comando e função do programa para reverter a última alteração que foi feita a algum objeto. Tais objetos podem ser, por exemplo, um texto, uma formatação de texto, uma imagem, uma multimídia digital, um sistema de arquivos. As alterações podem ser feitas pelo usuário ou pelo programa.</h3>
+      <h3 class="textBloco"><u>Filmes e Séries:</u> Durante minha adolescencia e juventude, sempre assisti muitas séries e filmes dos mais variados generos, apesar de ter diminuido o ritmo, ainda tiro um tempinho para apreciar a sétima arte.</h3>
     </div>
 
       <div><img class="ibagem" src="src/assets/WhatsApp Image 2023-05-05 at 13.55.20 (2).jpeg" alt="Tv"></div>
   </div>
 
-  <div id="3">
+  <div class="terceira">
       <div><img class="ibagem" src="src/assets/WhatsApp Image 2023-05-05 at 13.55.20.jpeg" alt="Trilha"></div>
       <div>
 
-      <h3 class="textBloco"> Em computação, desfazer é uma comando e função do programa para reverter a última alteração que foi feita a algum objeto. Tais objetos podem ser, por exemplo, um texto, uma formatação de texto, uma imagem, uma multimídia digital, um sistema de arquivos. As alterações podem ser feitas pelo usuário ou pelo programa.</h3>
+      <h3 class="textBloco"><u>Natureza:</u> Durante a pandemia descobri um gosto por fazer trilhas, subir morros, desbravar a natureza, me traz paz.</h3>
     </div>
   </div>
 
@@ -37,38 +34,56 @@ defineProps({
 
 <style>
 
-div#corpo{
+div.primeira{
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
   display: flex;
-  flex-direction:row;
-
-  height:1000px;
-  width: auto;
- 
-  justify-content:space-between;
   align-items: center;
-
-  background-color: black;
 }
- 
-
 .ibagem{
 width: 250px;
 border-radius: 100%;
-background-color: bisque;
-position: relative;
-border-style: dashed;
-border-color: blueviolet;
-
-
-
 }
 
 .textBloco{
   font-size: 20px;
   font-weight: bold;
- background-color: brown;
-  
- 
+}
+
+div.segunda{
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.ibagem{
+width: 250px;
+border-radius: 100%;
+}
+
+.textBloco{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+div.terceira{
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.ibagem{
+width: 200px;
+border-radius: 100%;
+}
+
+.textBloco{
+  font-size: 20px;
+  font-weight: bold;
 }
 
 </style>

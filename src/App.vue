@@ -1,11 +1,12 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 
+
  </script>
 
 
     <template class="header">
-      <div>
+  
     
     <header class="divCabecalho">
     <nav>
@@ -29,15 +30,6 @@ import { RouterLink, RouterView } from 'vue-router'
   </main>
 
 
-
-    <footer class="footer">
-
-      <h1>Rodapé</h1>
-
-    </footer>
-
-</div>
-
 </template>
 
 <RouterView />
@@ -56,22 +48,13 @@ padding: auto;
   /* background-color: brown; */
   width: 50%;
   margin-top: 5px;
-  height: 50%;
+  height: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 25%;
   margin-right: 25%;
   font-size: 1rem;
-}
-
-footer{
-  /* background-color: blueviolet; */
-  text-align: center;
-  display:flow-root;
-  justify-content: space-around;
-  align-items:center;
-  margin-top: 230px;
 }
 
 .divCabecalho{

@@ -39,21 +39,10 @@ defineProps({
 
 .textCorpo {
   display: flex;
-  flex-direction: row;
-
-  height: auto;
+  height: 200%;
   width: auto;
 
-  justify-content:space-between;
-  align-items: space-around;
-}
-
-.list1{
-  background-color: green;
-
-}
-
-.list2{
-  background-color: red;
+  justify-content:space-around;
+  align-items:center;
 }
 </style>

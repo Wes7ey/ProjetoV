@@ -30,7 +30,6 @@ div#corpo{
   justify-content:space-between;
   align-items: center;
 
-  background-color: black;;
 
   text-align: center;
 }

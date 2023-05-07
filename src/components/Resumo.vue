@@ -37,19 +37,16 @@ Atualmente iniciei meus estudos em TI, área que venho namorando a alguns anos, 
   width: auto;
 
   justify-content:space-between;
-  align-items: space-around;
-
-  background-color: bisque;
   align-items: center;
 
 
 }
 .img{
   width: 350px;
+
 }
 .top{
   width: auto;
-  background-color: blueviolet;
   margin:2%
 }
 
