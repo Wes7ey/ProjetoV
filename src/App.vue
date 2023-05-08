@@ -37,7 +37,6 @@ import { RouterLink, RouterView } from 'vue-router'
 <style scoped>
 
 header{
-/* background-color: aqua; */
 display: flex;
 justify-content: space-between;
 align-items: center;
