@@ -105,7 +105,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
   }
   body {
-    background-image: url("src/assets/foto5.gif");
+    background-image: url("foto5.gif");
     background-color: black;
     background-repeat: no-repeat;
     background-position: center;
