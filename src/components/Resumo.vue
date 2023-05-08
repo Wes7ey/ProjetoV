@@ -11,7 +11,7 @@ defineProps({
   <div class="blocoText">
 
   <div >
-    <img class="img" src="@/assets/WhatsApp Image 2023-05-03 at 14.22.00.jpeg">
+    <img class="img" src="@/assets/foto4.jpeg">
   </div>
 
   <div class="top">

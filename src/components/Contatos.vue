@@ -33,7 +33,7 @@ defineProps({
 
 </div>
 
-<img class="icon" src="src/assets/Github.ico">
+<img class="icon" src="@/assets/Github.ico">
 </div>
 
 </template>

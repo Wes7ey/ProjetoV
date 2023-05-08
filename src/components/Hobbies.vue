@@ -10,7 +10,7 @@ defineProps({
 <template> 
 
 <div class="primeira">
-      <div><img class="ibagem" src="src/assets/WhatsApp Image 2023-05-05 at 13.55.20 (1).jpeg" alt="Genshin"></div>
+      <div><img class="ibagem" src="@/assets/foto1.jpeg" alt="Genshin"></div>
      <div><h3 class="textBloco"><u>Jogos:</u> Desde criança sempre joguei muito video game, sempre preferi jogos de estratégia e RPGs. </h3></div> 
     </div>
 
@@ -19,11 +19,11 @@ defineProps({
       <h3 class="textBloco"><u>Filmes e Séries:</u> Durante minha adolescencia e juventude, sempre assisti muitas séries e filmes dos mais variados generos, apesar de ter diminuido o ritmo, ainda tiro um tempinho para apreciar a sétima arte.</h3>
     </div>
 
-      <div><img class="ibagem" src="src/assets/WhatsApp Image 2023-05-05 at 13.55.20 (2).jpeg" alt="Tv"></div>
+      <div><img class="ibagem" src="@/assets/foto2.jpeg" alt="Tv"></div>
   </div>
 
   <div class="terceira">
-      <div><img class="ibagem" src="src/assets/WhatsApp Image 2023-05-05 at 13.55.20.jpeg" alt="Trilha"></div>
+      <div><img class="ibagem" src="@/assets/foto3.jpeg" alt="Trilha"></div>
       <div>
 
       <h3 class="textBloco"><u>Natureza:</u> Durante a pandemia descobri um gosto por fazer trilhas, subir morros, desbravar a natureza, me traz paz.</h3>
