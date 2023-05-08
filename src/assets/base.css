@@ -105,7 +105,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
   }
   body {
-    background-image: url("/home/wesley/developmentVueJs/ProjetoV/src/assets/tumblr_98aa4229fc0f17ef11a87e855c2de9db_dae4eb54_500.gif");
+    background-image: url("@/assets/foto5.gif");
     background-color: black;
     background-repeat: no-repeat;
     background-position: center;
