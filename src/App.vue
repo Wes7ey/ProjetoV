@@ -30,17 +30,47 @@ import { RouterLink, RouterView } from 'vue-router'
   </main>
 
 
+  <footer>
+      <div class="social-icons">
+        <a href="https://instagram.com/wesleal_"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/wesley-leal-387b55138/"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/Wes7ey"><i class="bi bi-github"></i></a>
+      </div>
+  </footer>
+
 </template>
 
-<RouterView />
-
 <style scoped>
+
+footer {
+  display: flex;
+  background-color: transparent;
+  margin-top: 10%;
+  justify-content: center;
+
+}
+
+.social-icons {
+  font-size: 24px;
+  margin-bottom: 15px;
+  justify-content:space-between;
+
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 20px;
+  color: greenyellow;
+  transition: color 0.2s;
+}
 
 header{
 display: flex;
 justify-content: space-between;
 align-items: center;
 padding: auto;
+width: 100vw;
+height: 10vh;
 }
 
 .tela{
@@ -66,6 +96,13 @@ padding: auto;
   align-items: center;
   margin-left: 25%;
   font-size: 1rem;
+  
+}
+
+main {
+  width: 100%;
+  height: 100%;
+
 }
 </style>
 
