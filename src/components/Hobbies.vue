@@ -44,6 +44,7 @@ div.primeira{
 .ibagem{
 width: 250px;
 border-radius: 100%;
+margin: 10px;
 }
 
 .textBloco{
@@ -67,6 +68,7 @@ border-radius: 100%;
 .textBloco{
   font-size: 20px;
   font-weight: bold;
+  
 }
 
 div.terceira{
